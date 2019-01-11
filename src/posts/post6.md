@@ -4,7 +4,7 @@ date: '2019-01-14'
 title: 'Dangerously Set HTML'
 ---
 
-# Dangerously Set HTML
+# React Baggage
 
 What is it this about
 

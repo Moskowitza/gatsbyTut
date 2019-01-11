@@ -6,7 +6,7 @@ import styled from 'styled-components'
 
 const HeaderWrapper = styled.div`
   background: #bada55;
-  margin-bottom: 1.45rem;
+  margin-bottom: 0;
   img {
     margin-bottom: 0;
   }
