@@ -5,6 +5,8 @@ module.exports = {
     author: `@vanishingspy`,
   },
   plugins: [
+    `gatsby-plugin-sharp`,
+    `gatsby-image`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
     {
@@ -15,7 +17,7 @@ module.exports = {
       },
     },
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
+
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -33,6 +35,13 @@ module.exports = {
       options: {
         path: `${__dirname}/src/posts`,
         name: 'posts',
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/images`,
+        name: 'images',
       },
     },
     'gatsby-transformer-remark',
